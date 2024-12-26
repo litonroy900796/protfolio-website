@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/title-image.png" />
+    <title>Liton Roy - font-end developer || web developer || web designer</title>
+    <meta name="description" content="I am professional web designer. I hope I can give you good services" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/style/custom.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header">
+        <div class="container header_wrap">
+            <a class="logo" href="index.html">Liton R</a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-us.html">About</a></li>
+                    <li><a href="index.html#resume">Resume</a></li>
+                    <li><a href="/protfolio.html">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- hero section start -->
+    <section class="hero " style="height: 300px;">
+        <img src="assets/images/masthead.jpg" alt="">
+        <div class="hero_content container">
+            <h1 style="text-align: center;font-size: 32px;letter-spacing: 2px;">Contact US</h1>
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- about section start -->
+    <section class="container">
+        <div class="about_section">
+            <div class="about_info">
+                <span>My specialization</span>
+                <h2 class="about_title">I’m a <span>front-end</span> developer. I create modern <span>digital
+                        solutions</span> using the latest technology to turn ideas into successful
+                    <u>businesses.</u>
+                </h2>
+                <ul class="technology">
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap5</li>
+                    <li>Tailwind Css</li>
+                    <li>JavaScript</li>
+                    <li>React Js</li>
+                    <li>Firebase</li>
+                    <li>git</li>
+                    <li>Redux</li>
+                    <li>Next JS</li>
+                    <li>Wordpress</li>
+                </ul>
+                <a target="_blank" href="https://liton-chandra-portfolio.netlify.app/Asset/Liton's%20Resume.pdf"
+                    class="download_btn">Download Resume</a>
+            </div>
+            <div style="position: relative;" class="about_img">
+                <img src="/assets/images/mypic2.jpg" alt="profile image" style="width: 100%;">
+                <div class="experience-info">
+                    <div class="experience-number">3</div>
+                    <div class="experience-text">YEARS<br> EXPERIENCE<br> WORKING</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section end -->
+    <footer style="border-top: 1px solid rgb(170, 168, 168); margin-top: 50px;" class="footer">
+        <div class="container">
+            <p>&copy; 2024 Liton Roy. All rights reserved.</p>
+
+
+        </div>
+    </footer>
+    <script src="/assets/js/javascript.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+             var header = document.querySelector('.header');
+             var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+             if (scrollPosition >= 300) {
+                  header.classList.add('sticky');
+
+             } else {
+                  header.classList.remove('sticky');
+
+             }
+        });
+
+   </script>
+</body>
